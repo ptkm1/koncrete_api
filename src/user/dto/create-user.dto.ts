@@ -9,4 +9,5 @@ export class CreateUserDto implements Prisma.UserCreateInput {
   company: string;
   questions?: any;
   average?: number;
+  createdAt: Date;
 }
